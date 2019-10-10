@@ -7,9 +7,39 @@
     <groupId>org.airsonic</groupId>
     <artifactId>checkstyle</artifactId>
     <version>1.0-RELEASE</version>
+    <name>Airsonic Checkstyle</name>
+    <organization>
+        <name>Airsonic</name>
+        <url>https://airsonic.org/</url>
+    </organization>
+    <url>https://github.com/airsonic/checkstyle</url>
+    <description>
+	    Custom Checkstyle rules for the Airsonic project
+    </description>
+    <inceptionYear>2019</inceptionYear>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <licenses>
+        <license>
+            <name>BSD License</name>
+            <url>http://en.wikisource.org/wiki/BSD_License</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Andrew DeMaria</name>
+            <url>http://andrewdemaria.com</url>
+            <id>muff1nman</id>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/airsonic/checkstyle.git</connection>
+        <developerConnection>scm:git:git@github.com:airsonic/checkstyle.git</developerConnection>
+        <url>https://github.com/airsonic/checkstyle.git</url>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
