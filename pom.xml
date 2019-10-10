@@ -6,7 +6,7 @@
 
     <groupId>org.airsonic</groupId>
     <artifactId>checkstyle</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-RELEASE</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
